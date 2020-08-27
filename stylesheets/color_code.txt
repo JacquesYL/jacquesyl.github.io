@@ -1,0 +1,31 @@
+green #006644
+red	#990000 
+blue #527bbd
+
+helvetica, arial, sans-serif;
+
+
+
+h1, h2, h3 {
+	font-family:  helvetica, arial, sans-serif;
+/*	font-variant: small-caps; */
+/*	color: #527bbd; */
+/*	color: #990000; */
+	color: #006644;
+	margin-top: 0.7em;
+	margin-bottom: 0.3em;
+	padding-bottom: 0.2em;
+	line-height: 1.0;
+	padding-top: 0.5em;
+	border-bottom: 1px solid #aaaaaa;
+}
+
+
+      a { color: green; } /* CSS link color */
+
+
+           <style>
+    	a { color: #006644; } /* CSS link color */
+  	</style>
+
+  	<p style="color:darkgreen"> 
