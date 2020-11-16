@@ -7,6 +7,38 @@ body {
   font-weight:300;
 }
 
+section {
+  width: 600px;
+  float:left;
+  margin-left: 350px;
+  padding-bottom:50px;
+}
+
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover{ 
+  color:red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
@@ -159,11 +191,8 @@ header ul a strong {
   color:#222;
 }
 
-section {
-  width:500px;
-  float:right;
-  padding-bottom:50px;
-}
+
+
 
 small {
   font-size:11px;
