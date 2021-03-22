@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+
+
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -291,4 +293,8 @@ code {
 pre {
     white-space: pre-wrap;
     background: #F1F1F1;
+}
+
+li {
+    list-style-type: square;
 }
