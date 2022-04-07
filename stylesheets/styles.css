@@ -3,14 +3,14 @@
 
 
 body {
-  padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
-}
+  background-color: #fff;
+  padding: 50px;
+  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #727272;
+  font-weight: 400; }
 
 section {
-  width: 900px;
+  width: 700px;
   float:left;
   margin-left: 350px;
   padding-bottom:50px;
@@ -50,6 +50,8 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
+
+
 h1, h2, h3 {
   line-height:1.1;
 }
@@ -80,7 +82,7 @@ a small {
 }
 
 .wrapper {
-  width:1260px;
+  width:1060px;
   margin:0 auto;
 }
 
@@ -133,7 +135,7 @@ header {
   width:270px;
   float:left;
   position:fixed;
-}
+  -webkit-font-smoothing: subpixel-antialiased; }
 
 header ul {
   list-style:none;
@@ -192,8 +194,6 @@ header ul a strong {
   display:block;
   color:#222;
 }
-
-
 
 
 small {
